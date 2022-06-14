@@ -1,0 +1,12 @@
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\bin\Debug\Modelo.dll
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\bin\Debug\Modelo.pdb
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\obj\Debug\Modelo.dll
+C:\Users\alder\Escritorio\TP POO\TPPOO\Modelo\obj\Debug\Modelo.pdb
