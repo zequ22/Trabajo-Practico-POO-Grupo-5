@@ -42,8 +42,6 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nombre" Type="String" Nullable="false" />
-          <Property Name="Email" Type="String" Nullable="false" />
-          <Property Name="DNI" Type="String" Nullable="false" />
           <Property Name="Contrasena" Type="String" Nullable="false" />
           <NavigationProperty Name="Perfil" Relationship="Contexto.UsuarioPerfil" FromRole="Usuario" ToRole="Perfil" />
         </EntityType>
@@ -87,6 +85,17 @@
           <End Type="Contexto.Formulario" Role="Formulario" Multiplicity="*" />
           <End Type="Contexto.Permiso" Role="Permiso" Multiplicity="*" />
         </Association>
+        <EntityType Name="Cliente" BaseType="Contexto.Usuario">
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Apellido" Type="String" Nullable="false" />
+          <Property Name="Mail" Type="String" Nullable="false" />
+          <Property Name="Tel" Type="String" Nullable="false" />
+          <Property Name="Domicilio" Type="String" Nullable="false" />
+          <Property Name="DNI" Type="String" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Administrador" BaseType="Contexto.Usuario">
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->

@@ -5,14 +5,18 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="67e556e3897f427fa975b888861711e7" Name="Diagram1" >
-        <EntityTypeShape EntityType="Contexto.Usuario" Width="1.5" PointX="4" PointY="1.625" />
+        <EntityTypeShape EntityType="Contexto.Usuario" Width="1.5" PointX="3.625" PointY="1.375" />
         <EntityTypeShape EntityType="Contexto.Perfil" Width="1.5" PointX="7.125" PointY="1.625" />
-        <EntityTypeShape EntityType="Contexto.Formulario" Width="1.5" PointX="4.375" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Contexto.Formulario" Width="1.5" PointX="4.5" PointY="4.875" IsExpanded="true" />
         <EntityTypeShape EntityType="Contexto.Permiso" Width="1.5" PointX="7.625" PointY="4.375" />
         <AssociationConnector Association="Contexto.UsuarioPerfil" />
         <AssociationConnector Association="Contexto.FormularioPerfil" ManuallyRouted="false" >
         </AssociationConnector>
         <AssociationConnector Association="Contexto.FormularioPermiso" />
+        <EntityTypeShape EntityType="Contexto.Cliente" Width="1.5" PointX="1.125" PointY="3.25" />
+        <InheritanceConnector EntityType="Contexto.Cliente" />
+        <EntityTypeShape EntityType="Contexto.Administrador" Width="1.5" PointX="3.125" PointY="3.75" />
+        <InheritanceConnector EntityType="Contexto.Administrador" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
