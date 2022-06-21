@@ -37,6 +37,16 @@ namespace Vista
             {
                 MessageBox.Show("Ingreso incorrecto");
             }
+            #region VALIDACIONES
+            if (txtNOMBRE.Text == "")
+            {
+                MessageBox.Show("Complete este campo");
+            }
+            if (txtCONTRASEÑA.Text == "")
+            {
+                MessageBox.Show("Complete este campo");
+            }
+            #endregion
         }
 
         private void btnSALIR_Click(object sender, EventArgs e)

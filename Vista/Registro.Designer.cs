@@ -45,12 +45,8 @@
             this.txtDOMICILIO = new System.Windows.Forms.TextBox();
             this.btnREGISTRARSE = new System.Windows.Forms.Button();
             this.btnSALIR = new System.Windows.Forms.Button();
-            this.txtCVUCBU = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.cmbPUESTO = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -176,6 +172,7 @@
             this.btnREGISTRARSE.TabIndex = 14;
             this.btnREGISTRARSE.Text = "Registrarse";
             this.btnREGISTRARSE.UseVisualStyleBackColor = true;
+            this.btnREGISTRARSE.Click += new System.EventHandler(this.btnREGISTRARSE_Click);
             // 
             // btnSALIR
             // 
@@ -187,25 +184,9 @@
             this.btnSALIR.UseVisualStyleBackColor = true;
             this.btnSALIR.Click += new System.EventHandler(this.btnSALIR_Click);
             // 
-            // txtCVUCBU
-            // 
-            this.txtCVUCBU.Location = new System.Drawing.Point(12, 196);
-            this.txtCVUCBU.Name = "txtCVUCBU";
-            this.txtCVUCBU.Size = new System.Drawing.Size(271, 20);
-            this.txtCVUCBU.TabIndex = 17;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(289, 199);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 13);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "CVU/CBU";
-            // 
             // txtDNI
             // 
-            this.txtDNI.Location = new System.Drawing.Point(12, 222);
+            this.txtDNI.Location = new System.Drawing.Point(12, 196);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(271, 20);
             this.txtDNI.TabIndex = 19;
@@ -213,30 +194,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(289, 225);
+            this.label9.Location = new System.Drawing.Point(289, 199);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(26, 13);
             this.label9.TabIndex = 18;
             this.label9.Text = "DNI";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(289, 251);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(40, 13);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Puesto";
-            // 
-            // cmbPUESTO
-            // 
-            this.cmbPUESTO.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.cmbPUESTO.FormattingEnabled = true;
-            this.cmbPUESTO.Location = new System.Drawing.Point(12, 248);
-            this.cmbPUESTO.Name = "cmbPUESTO";
-            this.cmbPUESTO.Size = new System.Drawing.Size(271, 21);
-            this.cmbPUESTO.TabIndex = 21;
-            this.cmbPUESTO.Text = "Seleccione Puesto";
             // 
             // frmREGISTRO
             // 
@@ -244,12 +206,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(394, 308);
-            this.Controls.Add(this.cmbPUESTO);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtCVUCBU);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnSALIR);
             this.Controls.Add(this.btnREGISTRARSE);
             this.Controls.Add(this.txtDOMICILIO);
@@ -293,11 +251,7 @@
         private System.Windows.Forms.TextBox txtDOMICILIO;
         private System.Windows.Forms.Button btnREGISTRARSE;
         private System.Windows.Forms.Button btnSALIR;
-        private System.Windows.Forms.TextBox txtCVUCBU;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox cmbPUESTO;
     }
 }

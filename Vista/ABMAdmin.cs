@@ -10,24 +10,15 @@ using System.Windows.Forms;
 
 namespace Vista
 {
-    public partial class frmREGISTRO : Form
+    public partial class ABMAdmin : Form
     {
-        public frmREGISTRO()
+        public ABMAdmin()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void frmREGISTRO_Load(object sender, EventArgs e)
-        {
-            cmbPUESTO.Items.Add("Cajero");
-            cmbPUESTO.Items.Add("Cocinero");
-            cmbPUESTO.Items.Add("Repartidor");
-            cmbPUESTO.Items.Add("Mantenimiento");
 
         }
 
