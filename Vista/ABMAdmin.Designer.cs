@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ABMAdmin));
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvABM = new System.Windows.Forms.DataGridView();
             this.btnAGREGAR = new System.Windows.Forms.Button();
             this.btnMODIFICAR = new System.Windows.Forms.Button();
             this.btnELIMINAR = new System.Windows.Forms.Button();
             this.btnSALIR = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvABM)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvABM
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(755, 334);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvABM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvABM.Location = new System.Drawing.Point(12, 12);
+            this.dgvABM.Name = "dgvABM";
+            this.dgvABM.Size = new System.Drawing.Size(755, 334);
+            this.dgvABM.TabIndex = 0;
             // 
             // btnAGREGAR
             // 
@@ -53,6 +53,7 @@
             this.btnAGREGAR.TabIndex = 1;
             this.btnAGREGAR.Text = "Agregar";
             this.btnAGREGAR.UseVisualStyleBackColor = true;
+            this.btnAGREGAR.Click += new System.EventHandler(this.btnAGREGAR_Click);
             // 
             // btnMODIFICAR
             // 
@@ -71,6 +72,7 @@
             this.btnELIMINAR.TabIndex = 3;
             this.btnELIMINAR.Text = "Eliminar";
             this.btnELIMINAR.UseVisualStyleBackColor = true;
+            this.btnELIMINAR.Click += new System.EventHandler(this.btnELIMINAR_Click);
             // 
             // btnSALIR
             // 
@@ -82,7 +84,7 @@
             this.btnSALIR.UseVisualStyleBackColor = true;
             this.btnSALIR.Click += new System.EventHandler(this.btnSALIR_Click);
             // 
-            // Form4
+            // ABMAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -92,20 +94,20 @@
             this.Controls.Add(this.btnELIMINAR);
             this.Controls.Add(this.btnMODIFICAR);
             this.Controls.Add(this.btnAGREGAR);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvABM);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form4";
+            this.Name = "ABMAdmin";
             this.Text = "ABM Administrador";
             this.Load += new System.EventHandler(this.Form4_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvABM)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvABM;
         private System.Windows.Forms.Button btnAGREGAR;
         private System.Windows.Forms.Button btnMODIFICAR;
         private System.Windows.Forms.Button btnELIMINAR;

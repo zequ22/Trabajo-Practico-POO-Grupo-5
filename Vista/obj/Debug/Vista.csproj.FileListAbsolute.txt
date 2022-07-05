@@ -22,3 +22,5 @@ C:\Users\alder\Escritorio\TP POO\TPPOO\Vista\bin\Debug\EntityFramework.SqlServer
 C:\Users\alder\Escritorio\TP POO\TPPOO\Vista\obj\Debug\Vista.csproj.CopyComplete
 C:\Users\alder\Escritorio\TP POO\TPPOO\Vista\obj\Debug\Vista.exe
 C:\Users\alder\Escritorio\TP POO\TPPOO\Vista\obj\Debug\Vista.pdb
+C:\Users\alder\Escritorio\TP POO\TPPOO\Vista\obj\Debug\Vista.ABMAdmin.resources
+C:\Users\alder\Escritorio\TP POO\TPPOO\Vista\obj\Debug\Vista.Pedido.resources
