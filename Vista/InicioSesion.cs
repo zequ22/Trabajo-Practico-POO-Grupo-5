@@ -31,7 +31,9 @@ namespace Vista
 
             if (txtNOMBRE.Text == admin && txtCONTRASEÑA.Text == adminpass)
             {
-                MessageBox.Show("Ingreso con éxito!");
+                ABMAdmin formuABMADMIN = new ABMAdmin();
+
+                formuABMADMIN.Show();
             }
             else
             {
@@ -40,18 +42,18 @@ namespace Vista
             #region VALIDACIONES
             if (txtNOMBRE.Text == "")
             {
-                MessageBox.Show("Complete este campo");
+                MessageBox.Show("Complete el campo NOMBRE");
             }
             if (txtCONTRASEÑA.Text == "")
             {
-                MessageBox.Show("Complete este campo");
+                MessageBox.Show("Complete el campo CONTRASEÑA");
             }
             #endregion
         }
 
         private void btnSALIR_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }
